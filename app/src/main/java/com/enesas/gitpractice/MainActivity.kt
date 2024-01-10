@@ -16,7 +16,5 @@ class MainActivity : AppCompatActivity() {
 
         // Project kısmındaki .gitignore file her zaman ignore edilir. Yani bunun içindekiler public repository'e gönderilmez.
         // Bu nedenle api_key gibi önemli veriler orada tutulur.
-
-        println("5. commit")
     }
 }
