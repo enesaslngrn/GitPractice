@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 "Yada etmeden stash edip diğer commite checkout edeceğiz. ")
 
         println("Az önce YeniBranch adındaa bir branch oluşturdum ve ona geçiş yaptım. O nedenle bu satırı commit ettiğimde YeniBranch içine commit olacak. Master içine değil." +
-                "Ve merge ,işlemi için buna bu satırı ekliyorum şuan.")
+                "YeniBranch2 içinde buraya merge cümlesi ekliyorum")
 
 
     }
