@@ -26,7 +26,8 @@ class MainActivity : AppCompatActivity() {
                 "2. Force checkout: Yazdığın her şeyi siler ve direkt istediğin başka bir commit'e checkout eder. Yani ya önce yazdıklarımızı commit edeceğiz." +
                 "Yada etmeden stash edip diğer commite checkout edeceğiz. ")
 
-        println("Az önce YeniBranch adındaa bir branch oluşturdum ve ona geçiş yaptım. O nedenle bu satırı commit ettiğimde YeniBranch içine commit olacak. Master içine değil.")
+        println("Az önce YeniBranch adındaa bir branch oluşturdum ve ona geçiş yaptım. O nedenle bu satırı commit ettiğimde YeniBranch içine commit olacak. Master içine değil." +
+                "YeniBranch2 içinde buraya merge cümlesi ekliyorum")
 
 
     }
