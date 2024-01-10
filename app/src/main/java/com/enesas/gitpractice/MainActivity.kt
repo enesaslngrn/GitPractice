@@ -30,5 +30,8 @@ class MainActivity : AppCompatActivity() {
                 "YeniBranch2 içinde buraya merge cümlesi ekliyorum")
 
 
+        println("Bu satırı Github'tan cloneladığım GitPractice repository'sine göndermek için ekliyorum.")
+
+
     }
 }
