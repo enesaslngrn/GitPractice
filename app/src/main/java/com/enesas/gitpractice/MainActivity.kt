@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         println("2. comment için yazdığım satır")
+        println("3. commit için yazdığım satır")
     }
 }
