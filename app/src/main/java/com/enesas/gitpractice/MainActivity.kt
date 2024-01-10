@@ -19,5 +19,15 @@ class MainActivity : AppCompatActivity() {
 
         println("Şimdi checkout öğrenmek için yeni bir commit yapacağım.")
         println("Bu committen 6. commite gitmek için bunu yazıyorum.")
+
+        println("Diyelim ki bir local change yaptık. Yani bu satırı yazdıktan sonra commit etmeden bir başka commit'e checkout yapmak istedik. " +
+                "Çünkü bazen yazdığımız şey çok karışık olabilir ve commit edip git'e yüklemeden önce başka bir yere gitmek yani checkout etmek isteyebiliriz" +
+                "Burada bize 2 seçenek çıkıyor. 1. Smart Checkout: Yani yazdıklarını geçici olarak STASH eder ve diğer commite checkout yapar. " +
+                "2. Force checkout: Yazdığın her şeyi siler ve direkt istediğin başka bir commit'e checkout eder. Yani ya önce yazdıklarımızı commit edeceğiz." +
+                "Yada etmeden stash edip diğer commite checkout edeceğiz. ")
+
+        println("Az önce YeniBranch adındaa bir branch oluşturdum ve ona geçiş yaptım. O nedenle bu satırı commit ettiğimde YeniBranch içine commit olacak. Master içine değil.")
+
+
     }
 }
