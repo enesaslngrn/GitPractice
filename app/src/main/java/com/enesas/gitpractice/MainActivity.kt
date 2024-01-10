@@ -18,5 +18,6 @@ class MainActivity : AppCompatActivity() {
         // Bu nedenle api_key gibi önemli veriler orada tutulur.
 
         println("Şimdi checkout öğrenmek için yeni bir commit yapacağım.")
+        println("Bu committen 6. commite gitmek için bunu yazıyorum.")
     }
 }
